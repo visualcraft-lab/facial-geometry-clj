@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.clojars.visualcraft</groupId>
+  <artifactId>facial-geometry</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+  <name>facial-geometry</name>
+  <description>Pure-math Clojure library for 2D facial landmark geometry: canthal tilt, facial thirds, golden ratio delta, and bilateral symmetry.</description>
+  <url>https://looksmaxscale.com/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/visualcraft-lab/facial-geometry-clj</url>
+    <connection>scm:git:git://github.com/visualcraft-lab/facial-geometry-clj.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/visualcraft-lab/facial-geometry-clj.git</developerConnection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+  </dependencies>
+</project>
